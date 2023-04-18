@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.section {
+  padding: 5%;
+  margin: 0px 10%;
+}
+
+.contact-header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #3794d0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.contact-header > p {
+  margin-left: 20px;
+}
+
+.nav-home {
+  background-color: #2e2e2e;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav a {
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  transition: 0.5s;
+}
+
+.nav a:hover {
+  background-color: #3794d0;
+}
+
+.button {
+  margin-top: 25px;
+}
+
+.button-withe {
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #3794d0;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.button-withe:hover {
+  background-color: #222;
+  border: none;
+}
+
+.button-two {
+  margin-left: 15px;
+}
+
+.hello {
+  position: relative;
+  width: 100%;
+  background-image: url(../img/tlo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hello::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4784313725);
+}
+
+.section-hello {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  margin-left: 10%;
+  margin-right: 40%;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #3794d0;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.title-description {
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.4em;
+  font-size: 50px;
+}
+
+.title-description-with {
+  color: #fff;
+}
+
+.title-description-dark {
+  color: #333;
+}
+
+.secion-about-us {
+  background-color: #222;
+}
+
+.about-us {
+  position: relative;
+  display: flex;
+  margin-left: 10%;
+  background-color: #ffffff;
+}
+
+.about-us-title {
+  padding: 6%;
+}
+
+.line {
+  position: relative;
+  height: 3px;
+  width: 70px;
+  margin-top: 10px;
+  background-color: #3794d0;
+}
+
+.dark-bg {
+  background-color: #222;
+}
+.dark-bg .our-mission {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dark-bg .our-mission p {
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+}
+.dark-bg .characteristics {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 50px 0;
+}
+.dark-bg .characteristics .title-description {
+  font-size: 25px;
+}
+.dark-bg .characteristics div {
+  flex: 1;
+  text-align: center;
+  width: 200px;
+  padding: 25px;
+}
+.dark-bg .characteristics div:hover {
+  transform: scale(1.05);
+}
+.dark-bg .characteristics .characteristic1 {
+  background-color: #3794d0;
+}
+.dark-bg .characteristics .characteristic2 {
+  background-color: #2e2e2e;
+}
+.dark-bg .characteristics .characteristic2 p {
+  color: #fff;
+}
+.dark-bg .characteristics .characteristic3 {
+  background-color: #ffffff;
+}
+.dark-bg .characteristics .characteristic4 {
+  background-color: #3794d0;
+}
+
+.products {
+  padding: 5% 0;
+}
+
+.our-products {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-product {
+  font-family: "Poppins", sans-serif;
+  color: #3794d0;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.title-description-product {
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  font-size: 30px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  margin-top: 70px;
+}
+.product .product-description {
+  flex: 1 300px;
+}
+
+.photo-product {
+  margin-top: 15px;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact > div {
+  flex: 300px;
+  width: 100%;
+  padding: 50px;
+}
+.contact > div h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.contact > div p {
+  font-size: 20px;
+}
+
+.contactR {
+  background-color: #3794d0;
+  color: #fff;
+}
+
+p > a {
+  color: white;
+  text-decoration: none;
+}
+
+p > a:hover {
+  font-weight: bold;
+}
+
+.fa-house,
+.fa-book {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.mapy {
+  margin-bottom: -7px;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #222;
+  color: #ddd;
+  padding: 6px;
+}
+
+@media (max-width: 830px) {
+  .contact-header {
+    justify-content: center;
+  }
+  .nav {
+    justify-content: center;
+  }
+  .logo > a > img {
+    padding: 5px;
+    height: 60px;
+  }
+  .logo {
+    justify-content: center;
+  }
+  .contact-header {
+    font-size: 10px;
+  }
+  .contact-header > spam {
+    padding: 8px;
+    margin-left: 10px;
+  }
+  .nav-home {
+    padding: 1px;
+  }
+  .nav a {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .section-hello {
+    margin-right: 20%;
+  }
+  .title-description {
+    font-size: 40px;
+    text-align: center;
+  }
+  .title {
+    text-align: center;
+  }
+  .title-about-us {
+    text-align: left;
+  }
+  .section-hello {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-withe {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 550px) {
+  .nav {
+    flex-direction: column;
+  }
+  .title-description {
+    font-size: 28px;
+    text-align: center;
+  }
+  .section-hello {
+    height: 450px;
+  }
+  .title {
+    font-size: 18px;
+    text-align: center;
+  }
+  .title-about-us {
+    text-align: left;
+  }
+  .section {
+    padding: 70px 0;
+  }
+  .nav > a {
+    border-top: 1px solid rgba(0, 0, 0, 0.4784313725);
+    padding-left: 25vw;
+    padding-right: 25vw;
+  }
+}
+@media (min-width: 830px) {
+  .logo > a > img {
+    position: absolute;
+    top: 43px;
+    padding: 5px;
+    height: 70px;
+  }
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+}/*# sourceMappingURL=style.css.map */
