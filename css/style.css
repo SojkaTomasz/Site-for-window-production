@@ -33,14 +33,15 @@ p {
   color: #fff;
   font-size: 12px;
 }
-
-.contact-header > p {
+.contact-header:first-child {
+  padding-left: 100px;
+}
+.contact-header .fa-envelope {
   margin-left: 20px;
 }
 
 .nav-home {
   background-color: #2e2e2e;
-  padding: 10px;
 }
 
 .logo {
@@ -54,9 +55,8 @@ p {
   align-items: center;
   justify-content: flex-end;
 }
-
 .nav a {
-  padding: 15px;
+  padding: 25px 15px;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -64,13 +64,12 @@ p {
   font-size: 24px;
   transition: 0.5s;
 }
-
 .nav a:hover {
   background-color: #3794d0;
 }
 
 .button {
-  margin-top: 25px;
+  margin: 25px 0;
 }
 
 .button-withe {
@@ -316,11 +315,14 @@ footer {
   .contact-header {
     justify-content: center;
   }
+  .contact-header:first-child {
+    padding-left: 0;
+  }
   .nav {
     justify-content: center;
   }
   .logo > a > img {
-    padding: 5px;
+    padding: 10px;
     height: 60px;
   }
   .logo {
@@ -397,7 +399,7 @@ footer {
   .logo > a > img {
     position: absolute;
     top: 43px;
-    padding: 5px;
+    padding: 8px;
     height: 70px;
   }
   .header {
